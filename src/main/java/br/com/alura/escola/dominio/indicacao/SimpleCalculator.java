@@ -8,7 +8,8 @@ import java.util.Arrays;
 public class SimpleCalculator {
     public int add(int numberA, int numberB) {
 
-        String test = "thalia";
+        // you always must initialize a var
+        var test = "thalia";
         String substring = test.substring(2);
         char[] chars = substring.toCharArray();
         int a;
