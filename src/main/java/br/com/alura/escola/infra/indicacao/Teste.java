@@ -1,6 +1,6 @@
 package br.com.alura.escola.infra.indicacao;
 
-public class teste {
+public class Teste {
     public static void main(String[] args) {
         String smallest = "";
         String largest = "";
@@ -11,7 +11,8 @@ public class teste {
         String s = "welcometojava";
         char[] chars = s.toCharArray();
         int size = chars.length -k +1;
-        var apoie = "thalia";
+        //always initialize vars.
+        var name = "thalia";
 
         for (int i = 0; i < size; i++) {
             if(chars[a] > chars[count])
